@@ -1,0 +1,131 @@
+:root{
+    --verde:rgb(38, 128, 38); 
+    --preta:#141414;
+
+}
+
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+/* Header */
+.logo{
+    color: var(--verde);
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.nav-principal nav{
+    margin-left: 20px;
+}
+
+.nav-principal nav a{
+    margin-left: 20px;
+}
+
+.nav-secundaria a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    margin-right: 8px;
+}
+
+.nav-secundaria nav{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 15px;
+}
+
+header a{
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 17px;
+}
+
+header a:hover{
+    color: white;
+}
+
+/* Documentario principal*/
+
+.doc-principal{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(/img/pele-eterno.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.doc-principal .titulo{
+    color: #daa520;
+    margin-bottom: 15px;
+
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.doc-principal .botoes{
+    margin-top: 39px;
+}
+
+.doc-principal .botao{
+    padding: 15px 30px;
+    color: white;
+    background-color: rgba(0,0,0,.50);
+
+    border: none;
+
+    transition: .3s;
+}
+
+.doc-principal .botao:hover{
+    background-color: white;
+    color: var(--preta);
+}
+
+.doc-principal .botao i{
+    margin-right: 5px;
+}
+
+.listas h4{
+    margin: 20px 0 0 5px;
+    
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* rodapé */
+footer{
+    margin: 30px 0 20px 0;
+    text-align: center;
+ }
