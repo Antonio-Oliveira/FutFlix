@@ -1,0 +1,47 @@
+@media screen and (max-width:700px){
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-principal .container{
+        display: block;
+        margin: auto auto;
+    }
+
+    .nav-principal h2{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+     .nav-principal nav{
+        margin: 0;
+    }
+
+    .nav-principal nav a{
+        margin: 5px;
+    }
+
+    .nav-secundaria nav{
+        margin-top: 15px;
+    }
+    
+    .nav-secundaria{
+        margin: 0;
+    }
+
+
+    .botao{
+        margin-top: 10px;
+        width: 200px;
+    }
+
+   
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}

@@ -55,6 +55,9 @@ header .container{
 .nav-secundaria nav{
     display: flex;
     flex-direction: row-reverse;
+}
+
+.nav-secundaria nav a{
     margin-right: 15px;
 }
 
@@ -72,10 +75,10 @@ header a:hover{
 
 .doc-principal{
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(/img/pele-eterno.jpg);
-    background-position: top center;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 450px;
+    height: 600px;
 
     color: white;
 
